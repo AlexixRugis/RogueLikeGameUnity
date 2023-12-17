@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerProjectile
   m_EditorClassIdentifier: 
   _sprite: {fileID: 21300000, guid: f09182403f647ae4782fdbf49d2ff9ce, type: 3}
-  _speed: 10
+  _speed: 40

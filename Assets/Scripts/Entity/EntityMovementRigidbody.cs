@@ -21,7 +21,7 @@ namespace ARTEX.Rogue.Entities
 
         public void Move(Vector3 direction, float speed)
         {
-            Vector3 movement = direction * speed * Time.deltaTime;
+            Vector3 movement = direction.normalized * speed * Time.deltaTime;
 
             if(movement.x > 0)
             {

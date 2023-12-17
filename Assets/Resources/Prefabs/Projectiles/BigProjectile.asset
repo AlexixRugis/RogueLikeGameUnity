@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BigProjectile
   m_EditorClassIdentifier: 
   _sprite: {fileID: 21300000, guid: 2531822788f5d8e47917ded8ea959a3f, type: 3}
-  _speed: 3
+  _speed: 12
