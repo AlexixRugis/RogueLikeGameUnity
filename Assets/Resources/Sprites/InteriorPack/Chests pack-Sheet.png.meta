@@ -138,7 +138,7 @@ TextureImporter:
       213: -6077834857931064181
     second: Chests pack-Sheet_44
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -158,6 +158,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -167,8 +169,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -189,9 +191,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -219,6 +226,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1187,6 +1206,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Chests pack-Sheet_0: -7524651889035518021
+      Chests pack-Sheet_1: -4325967681810210892
+      Chests pack-Sheet_10: -7362077203251887369
+      Chests pack-Sheet_11: -6887728527360727407
+      Chests pack-Sheet_12: 1792953055095511504
+      Chests pack-Sheet_13: 1082441212671612353
+      Chests pack-Sheet_14: 1801895393258777347
+      Chests pack-Sheet_15: 3939387700999570911
+      Chests pack-Sheet_16: -1688619527255857825
+      Chests pack-Sheet_17: -5805557848112716185
+      Chests pack-Sheet_18: -6932451534417007006
+      Chests pack-Sheet_19: -3880844294143862845
+      Chests pack-Sheet_2: -7235167187212901696
+      Chests pack-Sheet_20: -5762778042854968198
+      Chests pack-Sheet_21: 8201588726363692219
+      Chests pack-Sheet_22: 3089785509532829360
+      Chests pack-Sheet_23: -5745571615929364712
+      Chests pack-Sheet_24: -4181211318208413294
+      Chests pack-Sheet_25: 5020618220097696812
+      Chests pack-Sheet_26: 1412433953049127143
+      Chests pack-Sheet_27: 8613944859483350226
+      Chests pack-Sheet_28: 9086502135674009592
+      Chests pack-Sheet_29: 3000682549529409597
+      Chests pack-Sheet_3: 5053969159607505463
+      Chests pack-Sheet_30: 431746353283686689
+      Chests pack-Sheet_31: -1123499021133995808
+      Chests pack-Sheet_32: 6907240244204542793
+      Chests pack-Sheet_33: 3950705844196108246
+      Chests pack-Sheet_34: 2184575565459704676
+      Chests pack-Sheet_35: 7676511531461841370
+      Chests pack-Sheet_36: 6213780422371652981
+      Chests pack-Sheet_37: 7502396648630402272
+      Chests pack-Sheet_38: -1997079861170971432
+      Chests pack-Sheet_39: -6806406018647350028
+      Chests pack-Sheet_4: 2881023157576613317
+      Chests pack-Sheet_40: 6155748929639027206
+      Chests pack-Sheet_41: 131198360405546658
+      Chests pack-Sheet_42: -2229859327507593162
+      Chests pack-Sheet_43: 352879715042795521
+      Chests pack-Sheet_44: -6077834857931064181
+      Chests pack-Sheet_5: -5492515441437014969
+      Chests pack-Sheet_6: 1113486678720213756
+      Chests pack-Sheet_7: 1896387765260576914
+      Chests pack-Sheet_8: 2444187880396075296
+      Chests pack-Sheet_9: -5567890388513696095
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

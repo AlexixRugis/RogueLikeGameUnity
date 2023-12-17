@@ -195,7 +195,7 @@ TextureImporter:
       213: 3162507230956877706
     second: Bright walls tilemap_63
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -215,6 +215,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -224,8 +226,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -246,9 +248,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -276,6 +283,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1328,6 +1347,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Bright walls tilemap_0: 5333194069460277650
+      Bright walls tilemap_1: 1743811502542709726
+      Bright walls tilemap_10: -1425029763336369480
+      Bright walls tilemap_11: -6634917217914512449
+      Bright walls tilemap_12: 7160689037964783585
+      Bright walls tilemap_13: 1700446649941097287
+      Bright walls tilemap_14: -6534191037846872300
+      Bright walls tilemap_15: 2055220320623519262
+      Bright walls tilemap_16: 2674959067815963863
+      Bright walls tilemap_17: -2915373203213082521
+      Bright walls tilemap_18: -6594101318635082464
+      Bright walls tilemap_19: -9040748687822744278
+      Bright walls tilemap_2: -844049396938990476
+      Bright walls tilemap_20: 2504093632749246297
+      Bright walls tilemap_21: 5523694305725854539
+      Bright walls tilemap_22: 5843315573938917619
+      Bright walls tilemap_23: -7234681744224147022
+      Bright walls tilemap_24: -8166251132899445004
+      Bright walls tilemap_25: 5936171794828310467
+      Bright walls tilemap_26: -675839369598112857
+      Bright walls tilemap_27: -5331597180122197769
+      Bright walls tilemap_28: -4828917885468889726
+      Bright walls tilemap_29: -8911615367495706497
+      Bright walls tilemap_3: 2625746584344961374
+      Bright walls tilemap_30: 5065567803956521576
+      Bright walls tilemap_31: -4969328171784086684
+      Bright walls tilemap_32: 8948550105196875832
+      Bright walls tilemap_33: 8090068708319290026
+      Bright walls tilemap_34: -8586282872249273067
+      Bright walls tilemap_35: -5193054391797449818
+      Bright walls tilemap_36: -6636964240715422262
+      Bright walls tilemap_37: 8246058024544160455
+      Bright walls tilemap_38: 3179290468493715726
+      Bright walls tilemap_39: -940776008068300836
+      Bright walls tilemap_4: -2570216826936379919
+      Bright walls tilemap_40: 357768161807719544
+      Bright walls tilemap_41: -6840337294023604620
+      Bright walls tilemap_42: 7827486625010152863
+      Bright walls tilemap_43: 2777088403140226518
+      Bright walls tilemap_44: 5202594453725683649
+      Bright walls tilemap_45: -1982111489247753749
+      Bright walls tilemap_46: 6577637153213428682
+      Bright walls tilemap_47: 825607481288249562
+      Bright walls tilemap_48: 1350070435089785943
+      Bright walls tilemap_5: -4642841223260686618
+      Bright walls tilemap_6: -1295527255560999702
+      Bright walls tilemap_7: 6278635231659023689
+      Bright walls tilemap_8: 3026450073989950384
+      Bright walls tilemap_9: -3485556526384202623
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

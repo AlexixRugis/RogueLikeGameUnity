@@ -75,7 +75,7 @@ TextureImporter:
       213: -1239726136277965388
     second: Objects- Sheet_23
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,6 +95,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,8 +106,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -126,9 +128,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -156,6 +163,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -683,6 +702,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Objects- Sheet_0: -4061897015745175282
+      Objects- Sheet_1: -4828668771468009232
+      Objects- Sheet_10: -8873564082242744114
+      Objects- Sheet_11: -6898728114243606117
+      Objects- Sheet_12: -367213213423030206
+      Objects- Sheet_13: -8747621999968290880
+      Objects- Sheet_14: 7192986826528566729
+      Objects- Sheet_15: -4195754746009088772
+      Objects- Sheet_16: 7139162107901359510
+      Objects- Sheet_17: 3711806789848146531
+      Objects- Sheet_18: -3414557328243215203
+      Objects- Sheet_19: -5632253967527943108
+      Objects- Sheet_2: 5743755357840018844
+      Objects- Sheet_20: -4855814428157348432
+      Objects- Sheet_21: -9098432816524545697
+      Objects- Sheet_22: 7189869824922219081
+      Objects- Sheet_23: -1239726136277965388
+      Objects- Sheet_3: 8349785898459197884
+      Objects- Sheet_4: -3374456792844485117
+      Objects- Sheet_5: -6679196939278377591
+      Objects- Sheet_6: -8943694825870560862
+      Objects- Sheet_7: -5435117730941917176
+      Objects- Sheet_8: -3348042040595958676
+      Objects- Sheet_9: -8956520666637062156
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

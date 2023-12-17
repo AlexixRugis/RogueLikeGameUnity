@@ -150,7 +150,7 @@ TextureImporter:
       213: 6855550089902709220
     second: Stone walls tilemap_48
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -170,6 +170,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -179,8 +181,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -201,9 +203,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -231,6 +238,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1283,6 +1302,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Stone walls tilemap_0: -5943486808224172176
+      Stone walls tilemap_1: 694239908768676581
+      Stone walls tilemap_10: -503598604821014786
+      Stone walls tilemap_11: 1040689739898891979
+      Stone walls tilemap_12: -7740204301896589502
+      Stone walls tilemap_13: 2444565784514724876
+      Stone walls tilemap_14: -8461424330757930316
+      Stone walls tilemap_15: -6191160028902601160
+      Stone walls tilemap_16: 7770364216311203632
+      Stone walls tilemap_17: -2756695681679647392
+      Stone walls tilemap_18: 262423789368602548
+      Stone walls tilemap_19: -2314792498092669648
+      Stone walls tilemap_2: 1976972850145824227
+      Stone walls tilemap_20: 8435233122613093346
+      Stone walls tilemap_21: 4477151865823175855
+      Stone walls tilemap_22: 3902779916423752942
+      Stone walls tilemap_23: -4069356674632610150
+      Stone walls tilemap_24: 839284839879306226
+      Stone walls tilemap_25: 5912071784863691338
+      Stone walls tilemap_26: 4162285354003695
+      Stone walls tilemap_27: -6238347582776881080
+      Stone walls tilemap_28: 96875369118593404
+      Stone walls tilemap_29: 1742508773662488369
+      Stone walls tilemap_3: -2761882239556816083
+      Stone walls tilemap_30: -3226685693219618564
+      Stone walls tilemap_31: -1083912506734316291
+      Stone walls tilemap_32: -5755481121555871891
+      Stone walls tilemap_33: -8491747959160309250
+      Stone walls tilemap_34: -8536577702231395636
+      Stone walls tilemap_35: 7346658523786292936
+      Stone walls tilemap_36: 8554072426485572563
+      Stone walls tilemap_37: 2277912164092620218
+      Stone walls tilemap_38: 4161782808458506842
+      Stone walls tilemap_39: 8248534945268862462
+      Stone walls tilemap_4: -1966029192693395921
+      Stone walls tilemap_40: -3677517860212122033
+      Stone walls tilemap_41: 129250815581026911
+      Stone walls tilemap_42: -3856236954174866462
+      Stone walls tilemap_43: -9042751534988518084
+      Stone walls tilemap_44: 3637917142010705670
+      Stone walls tilemap_45: 5675497281228517889
+      Stone walls tilemap_46: 8212503400540607807
+      Stone walls tilemap_47: -833658431535564814
+      Stone walls tilemap_48: 6855550089902709220
+      Stone walls tilemap_5: 8759438940259132392
+      Stone walls tilemap_6: -2059027218640938087
+      Stone walls tilemap_7: -1475585591211117906
+      Stone walls tilemap_8: 4802360191546796268
+      Stone walls tilemap_9: -8195821253660532855
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

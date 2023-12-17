@@ -150,7 +150,7 @@ TextureImporter:
       213: 5197167575548586166
     second: Wooden walls tilemap_48
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -170,6 +170,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -179,8 +181,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -201,9 +203,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -231,6 +238,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1283,6 +1302,56 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Wooden walls tilemap_0: 3382660131372820153
+      Wooden walls tilemap_1: -7832564262896881935
+      Wooden walls tilemap_10: -3709285154911708194
+      Wooden walls tilemap_11: 7309975116249754403
+      Wooden walls tilemap_12: 1613082638227327790
+      Wooden walls tilemap_13: 6444661671281789425
+      Wooden walls tilemap_14: 6674440384894791723
+      Wooden walls tilemap_15: 9107447044430570588
+      Wooden walls tilemap_16: -52404334951333424
+      Wooden walls tilemap_17: -8041115608310880577
+      Wooden walls tilemap_18: -8371536920429974970
+      Wooden walls tilemap_19: -8471615094445354510
+      Wooden walls tilemap_2: 6152291958412800244
+      Wooden walls tilemap_20: 3124532930987325271
+      Wooden walls tilemap_21: -3069357408646267389
+      Wooden walls tilemap_22: -4895630248537455881
+      Wooden walls tilemap_23: -7139366420318779908
+      Wooden walls tilemap_24: -3721493350676764962
+      Wooden walls tilemap_25: 775338993584116732
+      Wooden walls tilemap_26: -9086022464699350599
+      Wooden walls tilemap_27: -886696152053760214
+      Wooden walls tilemap_28: -3194413071558274361
+      Wooden walls tilemap_29: 4678442018881024464
+      Wooden walls tilemap_3: 1775016514897452045
+      Wooden walls tilemap_30: 4986065438578055609
+      Wooden walls tilemap_31: -495931528603969359
+      Wooden walls tilemap_32: -3398004954371968176
+      Wooden walls tilemap_33: -6725214417257027227
+      Wooden walls tilemap_34: 5098972494245537863
+      Wooden walls tilemap_35: 1881930026228023808
+      Wooden walls tilemap_36: -6393704600821359016
+      Wooden walls tilemap_37: -4933977870482580377
+      Wooden walls tilemap_38: 7688405419538965191
+      Wooden walls tilemap_39: -1400063828755358874
+      Wooden walls tilemap_4: 6472601819100843225
+      Wooden walls tilemap_40: -7297352127379364947
+      Wooden walls tilemap_41: 460029885597241191
+      Wooden walls tilemap_42: 4234044761160265619
+      Wooden walls tilemap_43: 3013484596311598130
+      Wooden walls tilemap_44: -5662461548955019358
+      Wooden walls tilemap_45: -4925475382451081369
+      Wooden walls tilemap_46: 6431111148985136434
+      Wooden walls tilemap_47: 6938648677186146976
+      Wooden walls tilemap_48: 5197167575548586166
+      Wooden walls tilemap_5: -810281112380092289
+      Wooden walls tilemap_6: 5507267052711647282
+      Wooden walls tilemap_7: 4919343409429819356
+      Wooden walls tilemap_8: -7457113427257452950
+      Wooden walls tilemap_9: -4633508167225156012
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
