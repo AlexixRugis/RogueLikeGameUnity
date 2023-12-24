@@ -1,5 +1,5 @@
 # RogueLikeGameUnity
-Unity RogueLike прототип. Меню, несколько уровней, разные типы мобов, босс со стадиями, лечение
+Попытка сделать игру, похожую на *Enter the Gungeon* или *Soul Knight*. Графика частично взята с itch.io
 
 Разбор кода: https://youtu.be/dveJ7E2rFr0
 
